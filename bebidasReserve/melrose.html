@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flat White</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        :root {
+            --primary-color: #c7a17a;
+            --background-color: #f9f5f0;
+            --dark-color: #151515;
+        }
+        
+        html {
+            font-size: 62.5%;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: lightgray;
+            color: #151515;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .container {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .box {
+            background-color: #294035; /* Fondo verde oscuro */
+            color: #ffffff; /* Texto blanco para contraste */
+            padding: 20px; /* Espaciado interno */
+            margin: 20px auto; /* Espaciado externo centrado */
+            border-radius: 10px; /* Bordes redondeados */
+            max-width: 800px; /* Ancho máximo */
+            overflow: hidden; /* Asegura que los elementos flotantes se contengan */
+        }
+
+        .box h1 {
+            font-family: fantasy;
+            font-size: 26px;
+        }
+
+        .image-container {
+            text-align: center; /* Centra la imagen dentro del contenedor */
+            max-width: 100%;
+            margin: 20px 0; /* Espaciado superior e inferior */
+        }
+
+        .image-container img {
+            max-width: 40%; /* Evita que la imagen sea más grande que el contenedor */
+            height: auto; /* Mantiene las proporciones */
+            border-radius: 5px; /* (Opcional) Bordes redondeados */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* (Opcional) Sombra */
+        }
+
+        .text {
+            font-size: 1.4rem;
+        }
+
+        ul {
+            margin: 20px auto;
+            padding: 0;
+            list-style: none;
+        }
+
+        ul li {
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+
+        footer a {
+            font-size: 1.6rem;
+            text-decoration: none;
+            color: var(--primary-color);
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>MELROSE</h1>
+            <p>Corto: 110 kcal / Alto: 120 kcal / Grande: 170 kcal / Venti: 230 kcal </p>
+            <div class="image-container">
+                <img src="/imagenes/Melrose.jpeg" alt="Melrose Cold Brew">
+            </div>
+            <p class="text">
+                <strong></strong>Bebida helada, preparada con un toque de escencia de lavanda,
+                endulzada con un delicioso toque de azucar morena y coronada con una cereza negra.
+            </p>
+        </div>
+    </div>
+    <header></header>
+    <main>
+        <ul>
+            <li>ALTO - $117.00</li>
+            <li>GRANDE - $138.00</li>
+            <li>VENTI - $148.00</li>
+        </ul>
+    </main>
+    <footer>
+        <a href="/">Volver al menu anterior</a>
+    </footer>
+</body>
+</html>
